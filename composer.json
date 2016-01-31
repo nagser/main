@@ -1,0 +1,31 @@
+{
+    "name": "nagser/main",
+    "type": "yii2-extension",
+
+    "description": "This module display index page",
+    "keywords": ["nagser"],
+    "license": "GPL-3.0+",
+    "support": {
+        "source": "https://github.com/nagser/main"
+    },
+    "authors": [
+        {
+            "name": "NagSer",
+            "email": "tech@eventarium.pro"
+        }
+    ],
+
+    "require": {
+        "yiisoft/yii2": "2.0.*",
+        "nagser/base": "dev-master"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "nagser\\main\\": ""
+        }
+    },
+    "extra": {
+        "bootstrap": "nagser\\main\\Bootstrap"
+    }
+}
