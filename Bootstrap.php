@@ -7,10 +7,7 @@ use yii\helpers\ArrayHelper;
 
 class Bootstrap implements BootstrapInterface {
 
-    private $_modelMap = [
-        'Model' => 'nagser\main\models\LoggerRecord',
-        'ModelSearch' => 'nagser\main\models\LoggerSearch',
-    ];
+    private $_modelMap = [];
 
     public function bootstrap($app){
         /**@var Module $module**/

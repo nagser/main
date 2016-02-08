@@ -1,11 +1,11 @@
 <?php
 
-namespace app\modules\main\controllers;
+namespace nagser\main\controllers;
 
-use \app\base\CustomController;
+use nagser\base\controllers\Controller;
 use Yii;
 
-class DefaultController extends CustomController
+class DefaultController extends Controller
 {
 
 	public function actions()

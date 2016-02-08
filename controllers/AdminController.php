@@ -1,13 +1,12 @@
 <?php
 
-namespace app\modules\main\controllers;
+namespace nagser\main\controllers;
 
-use \app\base\CustomAdminController;
 use Yii;
 use yii\filters\AccessControl;
 use yii\helpers\ArrayHelper;
 
-class AdminController extends CustomAdminController
+class AdminController extends \nagser\base\controllers\AdminController
 {
 
     public function behaviors()

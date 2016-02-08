@@ -6,7 +6,7 @@ use \Yii;
 
 class Module extends \nagser\base\Module
 {
-    public $controllerNamespace = 'app\modules\main\controllers';
+    public $controllerNamespace = 'nagser\main\controllers';
 
     public function init()
     {
